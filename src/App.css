@@ -1,3 +1,8 @@
 .App {
 	-webkit-app-region: drag;
 }
+
+img {
+	height: 300px;
+	width: 300px;
+}

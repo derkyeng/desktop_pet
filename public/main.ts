@@ -16,6 +16,7 @@ function createWindow() {
 		transparent: true,
 	});
 
+	win.setAlwaysOnTop(true, "screen");
 	//load the index.html from a url
 	win.loadURL("http://localhost:3000");
 
